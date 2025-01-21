@@ -3,7 +3,6 @@ import { Inter } from 'next/font/google';
 import './globals.css'; // Ensure you have your global CSS imported
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
-import { CartProvider } from '@/context/CartContext';
 // Configure the Inter font with fallback and display properties
 const inter = Inter({
   subsets: ['latin'],
